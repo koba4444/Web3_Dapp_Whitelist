@@ -4,7 +4,7 @@ import Web3Modal from "web3modal";
 import { providers, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
 import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
-
+window.alert("imports done");
 // pages/404.js
 export function Custom404() {
   return <h1>404 - Page Not Found-custom</h1>
