@@ -5,6 +5,11 @@ import { providers, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
 import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
 
+// pages/404.js
+export function Custom404() {
+  return <h1>404 - Page Not Found-custom</h1>
+}
+
 export default function Home() {
   // walletConnected keep track of whether the user's wallet is connected or not
   const [walletConnected, setWalletConnected] = useState(false);
