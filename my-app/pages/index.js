@@ -4,11 +4,8 @@ import Web3Modal from "web3modal";
 import { providers, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
 import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
-window.alert("imports done");
-// pages/404.js
-export function Custom404() {
-  return <h1>404 - Page Not Found-custom</h1>
-}
+//window.alert("imports done");
+
 
 export default function Home() {
   // walletConnected keep track of whether the user's wallet is connected or not
@@ -22,6 +19,7 @@ export default function Home() {
   // Create a reference to the Web3 Modal (used for connecting to Metamask) which persists as long as the page is open
   const web3ModalRef = useRef();
 
+  
   /**
    * Returns a Provider or Signer object representing the Ethereum RPC with or without the
    * signing capabilities of metamask attached
@@ -34,6 +32,8 @@ export default function Home() {
    *
    * @param {*} needSigner - True if you need the signer, default false otherwise
    */
+
+
   const getProviderOrSigner = async (needSigner = false) => {
     // Connect to Metamask
     // Since we store `web3Modal` as a reference, we need to access the `current` value to get access to the underlying object
@@ -199,7 +199,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Whitelist Dapp</title>
-        <meta name="description" content="Whitelist-Dapp" />
+        <meta name="description" content="Web3_Dapp_Whatelist" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
