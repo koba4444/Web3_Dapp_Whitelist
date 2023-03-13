@@ -198,7 +198,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Whitelist Dapp</title>
+        <title>exp2 - Whitelist Dapp</title>
         <meta name="description" content="Web3_Dapp_Whitelist" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
