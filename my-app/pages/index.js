@@ -199,7 +199,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Whitelist Dapp</title>
-        <meta name="description" content="Web3_Dapp_Whatelist" />
+        <meta name="description" content="Web3_Dapp_Whitelist" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
