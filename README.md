@@ -1,7 +1,7 @@
 # Web3_Dapp_Whitelist
 This is pet-project for storing first 10 addresses into web3 whitelist.
 
-Dapp deployed to https://web3-dapp-whitelist-u8q6-git-master-koba4444.vercel.app/
+Dapp deployed to https://web3-dapp-whitelist-u8q6.vercel.app/
 
 Wallet Metamask
 
