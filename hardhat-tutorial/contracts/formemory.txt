@@ -1,2 +1,2 @@
 2023.04.01 deployed to sepolia testnetwork
-Whitelist Contract Address: 0xA6D7a3949C501eB6BeECfE36EF29505EC907c7b4 
+Whitelist Contract Address: 0xe7Dd4De592C3d10a6aD7869E648bc546bFaC175d
