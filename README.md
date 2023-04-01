@@ -5,6 +5,7 @@ Dapp deployed to https://web3-dapp-whitelist-u8q6-git-master-koba4444.vercel.app
 
 Wallet Metamask
 
-Contract address 0x330fA830cd6cabA570C033eB8FF38B7e89C52dC2
+Whitelist Contract Address: 0xe7Dd4De592C3d10a6aD7869E648bc546bFaC175d
 
-Testnet goerli
+Testnet sepolia
+testnet node url: https://rpc-sepolia.rockx.com
